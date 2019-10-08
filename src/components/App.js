@@ -6,7 +6,7 @@ import axios from 'axios'
 const SearchBar = ({handleSearch, searchValue}) => {
   return (
     <div>
-      <p>Search for country: <input placeholder="Search" autoFocus={true} value={searchValue} onChange={handleSearch}/></p>
+      <p>Search for country: <input placeholder="Type to search" autoFocus={true} value={searchValue} onChange={handleSearch}/></p>
     </div>
   )
 }
